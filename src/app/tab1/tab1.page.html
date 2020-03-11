@@ -1,17 +1,30 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
+  <ion-toolbar color="primary">
+    <ion-title> 
+      Filmes
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <h1>Jumanji: Próxima Fase</h1>
+        <h2>04 de Dezembro de 2019</h2>
+        <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/bBRDUTr6jgbD8I8A9DvVGrVbdfB.jpg">
+        <p>Tentado em revisitar o mundo de Jumanji, Spencer (Alex Wolff) decide consertar o jogo de videogame que permite que os jogadores sejam transportados ao local. Logo…</p>
+        <ion-button expand="block" fill="outline">Mais Informações</ion-button>
+      </ion-col>
+      
+      <ion-col>
+        <h1>Clube da Luta</h1>
+        <h2>15 de Outubro de 1999</h2>
+        <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/8pcOlY6jaupFKTIy2aeKCKZ2GMj.jpg">
+        <p>Jack (Edward Norton) é um executivo jovem, trabalha como investigador de seguros, mora confortavelmente, mas ele está ficando cada vez mais insatisfeito com sua…</p>
+        <ion-button expand="block" fill="outline">Mais Informações</ion-button>
+      </ion-col>
+    </ion-row>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  </ion-grid>
 </ion-content>
